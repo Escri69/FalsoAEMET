@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>FALSO AEMET</title>
+</head>
+<body>
+    <h1>Prediccion del clima</h1>
+    <form method="GET" action="http://www.aemet.es/es/buscador">
+    Clima en:
+        <select id="ciudad" name="str">
+            <option value="madrid">Madrid</option>
+            <option value="parla">Parla</option>
+            <option value="madridejos">Madridejos</option>
+        </select>
+        <input type="submit" name="Enviar"/>       
+    
+    </form>
+</body>
+</html> 
